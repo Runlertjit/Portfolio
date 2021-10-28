@@ -1,0 +1,125 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    animation : fade 2s;
+}
+/*-------------กำหนดPage----------------*/
+.head-col {
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+/*------------กำหนดกล่อง BG---------------*/
+.col-bg-right {
+    float: left;
+    width: 450px;
+    margin-right: 10%;
+}
+
+.col-bg-right1 {
+    float: left;
+    width: 450px;
+    margin-top: -4px;
+    margin-right: 10%;
+}
+
+.col-bg-left {
+    float: left;
+    width: 450px;
+    margin-left: 10%;
+}
+
+/*---------------BG Black&White--------------*/
+.bg-black {
+    padding: 5%;
+    height: 250px;
+    background-color: black;
+}
+
+.bg-white {
+    padding: 5%;
+    height: 250px;
+    background-color: white;
+}
+
+/*------------BG imgLogo-------------------*/
+.bg-white-sc1 {
+    padding: 5%;
+    height: 250px;
+    background-color: white;
+    background-image: url(./images/Asa.png);
+    background-position:center;
+    background-size: 25% 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-white-sc2 {
+    padding: 5%;
+    height: 250px;
+    background-color: white;
+    background-image: url(./images/Rajpracha.png);
+    background-position: center;
+    background-size: 25% 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-white-sc3 {
+    padding: 5%;
+    height: 250px;
+    background-color: white;
+    background-image: url(./images/KMUTT.png);
+    background-position: center;
+    background-size: 30% 50%;
+    background-repeat: no-repeat;
+}
+/*------------H.Education-----------------*/
+.H1-edu h1 {
+    text-align: center;
+    margin-top: 20%;
+    font: 3em 'Spectral SC', serif;
+    color: white;
+    letter-spacing: 10px;
+    text-decoration: white overline;
+}
+
+/*------------idiom----------------*/
+.text-sc {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.text-sc2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 17px;
+}
+
+/*------------กำหนด text--------------*/
+.float-text-school1 ul {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15%;
+    list-style: none;
+}
+
+.float-text-school1 li {
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+
+}
+/*----------------------------------------*/
+.pic-school {
+    float: left;
+    width: 601px;
+    margin-left: 10%;
+    margin-top: -4px;
+}
+
+/*----------------animation----------------------*/
+@keyframes fade {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

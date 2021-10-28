@@ -1,0 +1,133 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0%;
+    animation : fade 2s;
+}
+
+.profile {
+    color: pink;
+}
+
+.head-col {
+    margin-top: 3.5%;
+}
+
+.head-sec-1 {
+    background-color: rgb(255, 255, 255, 0.4);
+    background-image: url(./images/me.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 7%;
+
+}
+
+/*------------------------จัด Font------------------------*/
+.head-sec-1 h1 {
+    font: 3em 'Spectral SC', serif;
+    border-left: 1px solid;
+    padding-left: 20px;
+}
+
+/*------------กำหนดข้อมูลตั้งแต่ DATA ลงไป----------------*/
+.data {
+    background-color: rgb(255, 255, 255, 0.4);
+    padding-bottom: 5%;
+    margin-top: 8%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/*รูปภาพ*/
+.data-pic {
+    float: left;
+    margin-left: 30%;
+}
+
+/*หัวข้อ*/
+.data-text h2 {
+    float: left;
+    width: 685px;
+    margin-top: 7%;
+    margin-left: 3.5%;
+}
+
+/*กำหนดข้อมูล About*/
+.data-text p {
+    float: left;
+    width: 685px;
+    margin-left: 3.5%;
+    text-indent: 1cm;
+    text-align: justify;
+    padding-bottom: 3%;
+    border-bottom: 1px solid;
+}
+
+.data-text-2 {
+    clear: left;
+}
+
+/* ul li ของ Profile*/
+ul {
+    list-style: none;
+}
+
+.float1 ul {
+    float: left;
+    margin: 50px 0% 3% 30%;
+    padding-right: 50px;
+    border-right: 1px solid;
+}
+
+.float1 li {
+    line-height: 40px;
+}
+
+.float2 ul {
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.float2 li {
+    line-height: 40px;
+}
+/*หัวข้อย่อย*/
+h4 {
+    margin-left: 20%;
+    margin-right: 10%;
+    padding-left: 10px;
+    border-color: cadetblue;
+    border-top: 1px solid;
+    border-left: 3px solid;
+}
+/*--------------------------------*/
+.float-cl {
+    clear: left;
+}
+
+.ul-col ul {
+    line-height: 40px;
+    margin-left: 25%;
+}
+/* Link */
+.web a {
+    text-decoration: none;
+}
+
+.web a:visited {
+    color: rgb(0, 173, 253);
+}
+
+.web a:link {
+    color: black;
+}
+
+.web a:hover {
+    color: turquoise;
+
+}
+/*----------------animation----------------------*/
+@keyframes fade {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

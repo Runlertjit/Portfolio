@@ -1,0 +1,47 @@
+/*-----------------navbar--------------------*/
+.nav {
+    background-color: rgb(255, 255, 255,0.9);
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    border: 1px solid;
+}
+
+
+.nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    text-align: center;
+    font-variant: small-caps;
+    width: 130px;
+    border-right: 2px #b1b16c solid;
+
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: black;
+}
+
+.nav a:link {
+    color: black;
+}
+
+.nav a:hover {
+    color: black;
+    padding: 20px 25px 17px 25px;
+    background-color: rgb(202, 199, 199);
+}
+
+.nav a:active {
+    color: black;
+    padding: 20px 25px 17px 25px;
+    background-color: rgb(202, 199, 199);
+}

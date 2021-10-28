@@ -1,0 +1,65 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0%;
+    margin-bottom: 5%;
+    animation : fade 2s;
+}
+
+/*---------------------------------------*/
+h1 {
+    font: 3em 'Spectral SC', serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+/*bg ข้อความ*/
+.box {
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*-----------------------------------------*/
+.line-top {
+    margin-top: 5%;
+}
+
+/*ย่อหน้า*/
+.indent {
+    text-indent: 1cm;
+}
+/*ตัวอย่าง*/
+.example {
+    margin-left: 5%;
+}
+/*Link*/
+.link-target a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.link-target a:link {
+    padding: 10px;
+    background-color: black;
+    ;
+}
+
+.link-target a:visited {
+    color: white;
+    background-color: black;
+}
+
+.link-target a:active {
+    color: black;
+    background-color: white;
+}
+
+.link-target a:hover {
+    background-color: gray;
+}
+/*----------------animation----------------------*/
+@keyframes fade {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

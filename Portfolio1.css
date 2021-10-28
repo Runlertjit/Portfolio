@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url(./BGimages/Flower.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation : fade 5s;
+}
+/*--------------Logo portfolio--------------------*/
+#Portfolio {
+    font-family: 'Monoton', cursive;
+    /*font-family: 'Fredericka the Great', cursive;*/
+    text-align: center;
+    margin-top: 25%;
+    font-size: 3em;
+    letter-spacing: 50px;
+    animation: change 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+/*----------------animation----------------------*/
+@keyframes fade {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+@keyframes change{
+0%{color: black;}
+50%{color:  rgb(92, 77, 77);}
+100%{color:  rgb(150, 132, 132);}
+}
+
+/*----------------------------------------------*/
+.copy {
+    margin-top: 14%;
+    text-align: center;            
+}

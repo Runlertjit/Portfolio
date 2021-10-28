@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Navbar/Navbar.css">
+    <link rel="stylesheet" href="Reference.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li class="home"><a href="../Portfolio1.html">Home</a></li>
+            <li class="home"><a href="../Profile/newProfile.html">Profile</a></li>
+            <li class="home"><a href="../Education/Eduucation.html">Education</a></li>
+            <li class="home"><a href="../Future/Future.html">Future</a></li>
+            <li class="home"><a href="../Other/Other.html">Other</a></li>
+            <li class="home"><a href="./Reference.html"><span style="color:gray">References</span></a></li>
+        </ul>
+    </div>
+
+    <div class="col">
+        <h1>Reference</h1>
+        <div class="box">
+            <h4>Animation</h4>
+            <div class="text">
+                <p class="indent">คือการสร้างภาพเคลื่อนไหว (Animations) โดยไม่ต้องใช้ Flash animations และ JavaScripts
+                    โดยในการสร้างภาพเคลื่อนไหวนั้นต้องใช้คำสั่ง @keyframes (CSS3 Animations ไม่สามารถใช้กับ Internet
+                    Explorer)</p>
+                <p>คำสั่งพื้นฐานของ Animation ใน CSS3 มีดังนี้</p>
+                <ul>
+                    <li>animation-name คือ การตั้งชื่อให้กับรูปแบบการแสดงการเคลื่อนไหว</li>
+                    <li> animation-duration คือ ระยะเวลาของการเคลื่อนไหว จาก ต้นทาง ไป ปลายทาง</li>
+                    <li> animation-timing-function คือ รูปแบบการเล่นใน 1 รอบของการเคลื่อนไหวของ keyframe</li>
+                    <li> animation-iteration-count คือ การทำซ้ำ เช่น จะให้ทำกี่รอบ หรือ infinite คือ วนไม่หยุด</li>
+                    <li> animation-direction คือ การสั่งทิศทางการเล่น เช่น จาก 1 ถึง 10 หรือจะให้เล่นถอยหลัง จาก 10 มา 1
+                    </li>
+                    <li> animation-delay คือ จะให้เริ่มทำทันที หรือ ดีเลย์ ตามเวลาที่กำหนด เช่น
+                        ถ้าเรากดปุ่มแล้วต้องการให้
+                    </li>
+                    <li> animation ที่เราสั่งงานเริ่มเล่นเมื่อเวลาผ่านไปหลังจากกดปุ่ม 2 วินาที เราสามารถกำหนดได้ใน</li>
+                    <li> animation-delay โดยค่าเริ่มต้นคือ 0 ซึ่งเป็นการสั่งให้เล่นทันที</li>
+                </ul>
+                <br>
+                <p><b>shorthand property</b></p>
+                <p class="indent">การเขียนแบบย่อ โดยการใส่ค่าควรเรียงลำดับจาก animation-name ||
+                    animation-duration || animation-timing-function ||
+                    animation-delay || animation-iteration-count ||
+                    <br>animation-direction</p>
+
+                <p>ตัวอย่างเช่น</p>
+                <p class="example">
+                    div {
+                    <br>width: 100px;
+                    <br>height: 100px;
+                    <br>position: relative;
+                    <br>background-color: red;
+                    <br>animation-name: example;
+                    <br>animation-duration: 4s;
+                    <br>animation-iteration-count: 3;
+                    }
+                </p>
+
+                <div class="link-target">
+                    <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation_count"
+                        target="_blank">Example</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box line-top">
+            <h4>Keyframe</h4>
+            <div class="keyframe">
+                <p class="indent">คีย์เฟรม(Keyframe)คือช่องสำหรับกำหนดค่า
+                    เพื่อสร้างความเคลื่อนไหวในแต่ละช่วงเวลาให้กับคลิปวีดีโอจำเป็นต้องมีคีย์เริ่มต้น และคีย์สิ้นสุด</p>
+                <p><b>ตัวอย่างที่แสดงใน Portfolio</b></p>
+                <p class="example indent">
+                    @keyframes fade {
+                    <br>0%{opacity: 0;} <b><-------- opacity คือการกำหนดความทึบ</b>
+                    <br>100%{opacity: 1;}
+                    <br>}
+                    <br>
+
+                    <br>@keyframes change{
+                    <br>0%{color: black;}
+                    <br>50%{color: rgb(92, 77, 77);}
+                    <br>100%{color: rgb(150, 132, 132);}
+                    <br>}
+                </p>
+                <div class="link-target">
+                    <a href="../Portfolio1.html" target="_blank">Example</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

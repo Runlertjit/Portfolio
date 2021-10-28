@@ -1,0 +1,44 @@
+    
+    
+    body {
+        margin: 0;
+        background-color: #f4f4f4;
+        animation : fade 2s;
+    }
+/*----------------------ใส่BG------------------------------*/
+    .f1 {
+        background-color: rgb(255, 255, 255, 0.8);
+        background-image: url(./images/flower.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        padding: 10%;
+    }
+/*------------------------จัด Font------------------------*/
+    .f1 h1{
+        text-align: center;
+        text-decoration:overline black;
+        font: 3em 'Spectral SC', serif;
+    }
+/*----------------------เนื้อหา----------------------------*/
+    .text {
+        font-family: 'Raleway', sans-serif;
+        line-height: 25px;
+        background-color: rgb(255, 255, 255, 0.7);
+        margin: -5% 35% 0% 35%;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 1cm;
+        font-size: 18px;
+        border-radius: 3px;
+    }
+/*--------------------------------------------------------*/
+    .copyright {
+        margin-top: 6%;
+        margin-left: 20px;
+    }
+
+/*----------------animation----------------------*/
+@keyframes fade {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
